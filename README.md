@@ -1,7 +1,7 @@
 # GreenDaoUpgrade
 GreenDao自动化升级
 
-##How To
+
 Step 1. Add the JitPack repository to your build file
 ```
 allprojects {
