@@ -1,6 +1,7 @@
 # GreenDaoUpgrade
 GreenDao自动化升级
 
+[博客链接](https://www.jianshu.com/p/67f02df63132)
 
 Step 1. 在 root gradle目录下添加
 ```
