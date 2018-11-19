@@ -18,6 +18,6 @@ allprojects {
 Step 2. 在 子module gradle目录下添加依赖
 ```
 dependencies {
-    implementation 'com.github.mhlistener:GreenDaoUpgrade:1.0.0'
+    implementation 'com.github.mhlistener:GreenDaoUpgrade:1.1.0'
 }
 ```
