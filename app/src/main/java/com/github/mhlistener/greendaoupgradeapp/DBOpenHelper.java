@@ -23,12 +23,16 @@ public class DBOpenHelper extends DaoMaster.OpenHelper {
 	@Override
 	public void onCreate(Database db) {
 		super.onCreate(db);
-		MigrationHelper.migrate(db, KeywordHistoryEntityDao.class);
+		startMigrate(db);
 	}
 
 	@Override
 	public void onUpgrade(Database db, int oldVersion, int newVersion) {
 		super.onUpgrade(db, oldVersion, newVersion);
+		startMigrate(db);
+	}
+
+	private void startMigrate(Database db) {
 		MigrationHelper.migrate(db, KeywordHistoryEntityDao.class);
 	}
 
